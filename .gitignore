@@ -1,0 +1,37 @@
+# --- C++ ---
+*.exe
+*.out
+*.app
+a.out
+
+*.o
+*.obj
+*.dSYM/
+
+# --- Java ---
+*.class
+
+*.jar
+*.war
+*.ear
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+env/
+
+
+# --- IDEs 
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+# IntelliJ / JetBrains
+.idea/
+*.iml
+# Archivos del sistema
+.DS_Store
+Thumbs.db
